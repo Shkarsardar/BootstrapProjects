@@ -1,0 +1,67 @@
+$primary-color:rgb(50,146,166);
+$overlay-color:rgba(50,146,166,0.8);
+body{
+    margin-top: 105px;
+
+}
+.navbar
+{
+    opacity: 0.9;
+    box-shadow: 2px 2px 5px $primary-color;
+    background: #fff;
+    .nav-item
+    {
+        font-size: 1rem;
+        padding-right: 1.4rem;
+
+    }
+
+
+}
+#book-showcase
+{
+    background: linear-gradient($overlay-color,$overlay-color),url("../img/mountains.jpg");
+    min-height: 600px;
+
+    height: 90vh;
+    background-size: cover;
+}
+.accordion
+{
+    .card-header{
+        background-color:#efefef;
+
+        
+    }
+}
+#authors
+{
+    img{
+        margin-top: -50px;
+
+    }
+    .fab{
+        color: #fff;
+
+    }
+    .card:hover{
+        background-color: $primary-color;
+        color: #fff;
+
+
+    }
+    
+}
+textarea
+{
+    resize: none;
+    
+}
+@media(max-width:768px)
+{
+    .mb-resp
+    {
+        margin-bottom: 1rem;
+
+    }
+}

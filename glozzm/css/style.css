@@ -1,0 +1,92 @@
+.navbar-nav .nav-link
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 1rem !important;
+
+}
+.navbar .nav-item.active
+{
+    border-left: #444 4px solid;
+
+}
+.carousel-item
+{
+    height: 400px;
+
+}
+.carousel-image-1
+{
+    background: url("../img/image1.jpg");
+    background-size: cover;
+
+}
+.carousel-image-2
+{
+    background: url("../img/image2.jpg");
+    background-size: cover;
+
+}
+.carousel-image-3
+{
+    background: url("../img/image3.jpg");
+    background-size: cover;
+
+}
+#home-heading
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/lights.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+
+
+}
+#video-play
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/lights.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+    text-align: center;
+
+    color: #fff;
+}
+#video-play a{
+    color: #fff;
+    
+
+
+}
+.fa-heart
+{
+    color: red;
+
+}
+#aboutas-section
+{
+    height: 200px;
+    background: url("../img/image1.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+
+
+}
+.about-img{
+    margin-top: -50px;
+
+}
+footer{
+    background: #343a40;
+    color: #fff;
+    
+
+
+
+}
+
